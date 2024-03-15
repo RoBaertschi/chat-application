@@ -1,0 +1,5 @@
+indent-width = 2
+
+exclude = [
+  ".venv","__pycache__"
+]
