@@ -5,7 +5,7 @@ This a small application written to learn FastAPI and Python. It uses FastAPI an
 ## Security
 
 Your passwords are hashed using bcrypt and passlib. The key is currently public so please replace the key if you really want to host a server.
-Your Account is per Server. Do not trust any Server you do not know and DON'T use your NORMAL Password for servers that you don't own. Because you do not have control as the password is encrypted server side, if they actually just store the password or steal it.
+Your Account is per Server. Do not trust any Server you do not know and DON'T use your NORMAL Password for servers that you don't own. Because the password is sent in plaintext over either HTTP or HTTPS, the password is encrypted server side, not on your client. So they could just steal it without you knowing. So be careful please.
 
 ## Usage
 
