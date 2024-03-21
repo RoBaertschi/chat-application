@@ -2,6 +2,11 @@
 
 This a small application written to learn FastAPI and Python. It uses FastAPI and Websockets to create a small Chat app.
 
+## Security
+
+Your passwords are hashed using bcrypt and passlib. The key is currently public so please replace the key if you really want to host a server.
+Your Account is per Server. Do not trust any Server you do not know and DON'T use your NORMAL Password for servers that you don't own. Because you do not have controll if they actually just store the password or steal it.
+
 ## Usage
 
 Install all the dependencies with:
