@@ -1,9 +1,11 @@
 # Chat Application
+
 This a small application written to learn FastAPI and Python. It uses FastAPI and Websockets to create a small Chat app.
 
 ## Usage
 
 Install all the dependencies with:
+
 ```shell
 pip install -r requirements.txt
 ```
